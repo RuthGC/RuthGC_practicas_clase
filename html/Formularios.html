@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario</title>
+<link href="../style_medios.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header><h1>Formularios</h1> 	</header>
+		<nav>
+		<ul>
+		  <li><a href="mi primera pagina.html">Mi primera pagina</a></li>
+		  <li><a href="tablas.html">Tablas</a></li>
+		  <li><a href="listas.html">Listas</a></li>
+		  <li><a href="enlaces.html">Enlaces</a></li>
+		  <li><a href="sonido.html">Audio</a></li>
+		  <li><a href="Video.html">video</a></li>
+		  <li><a href="../imagenes.html">Imagenes</a></li>
+		  <li><a href="Animacion.html">Animacion</a></li>
+		  <li><a href="Formularios.html">Formularios</a></li>
+			 <li><a href="flexbox.html">Flexbox</a></li>
+			 <li><a href="media.html">Media Queries</a></li>
+		</ul>
+		</nav>
+	
+		<main>
+		<section>
+			<h2>Insercion de formulario</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem exercitationem quisquam blanditiis officiis accusamus non placeat, accusantium sint adipisci, inventore dignissimos iure quos maiores itaque explicabo porro soluta cumque neque.</p>
+			<form>
+				<label>Nombre</label>
+				<input type="text" id="idname" name="nombre">
+				<input type="button" id="idboton" name="enviar" value="enviar">
+			</form>
+			</section>
+			<section>
+			<h2>Insecion de formulariio con casillas de verificacion</h2>
+				<form>
+				<label>¿Cueales generos musicales prefieres?
+					</label>
+				<input type="checkbox" id="idgenero1" name="pop" value="Pop">
+				<label>Pop</label>
+				<input type="checkbox" id="idgenero2" name="rock" value="rock">
+				<label>Rock</label>
+					<input type="checkbox" id="idgenero3" name="indie" value="indie">
+				<label>indie</label>
+				<input type="button" id="idboton2" name="enviar" value="enviar">
+				</form>
+			</section>
+			<section>
+			<h2>inserccion de formularios </h2>
+			<form id="form1" name="form1" method="post" action="action_page.html" >
+			<label>Genero:</label>
+			<input type="radio" name="radio" id="radio" value="radio">
+			<label for="radio">Femenino</label>	
+			<input type="radio" name="radio1" id="radio1" value="radio1">
+			<label for="radio1">Maculino</label>	
+			<input type="submit" name="submit" id="submit" value="Enviar">
+				</form>
+			</section>
+			<section>
+			<h2>Formulario de Contacto</h2>
+			<form action="action_page.html" method="get">
+			<table width="50%" border="0">
+			  <tbody>
+				<tr>
+				<td> <label for="textfield">Nombre</label> </td>
+				</tr>
+				<tr>
+				<td><input type="text" name="textfield" id="textfield"></td>
+				</tr>
+				<tr>
+				<td><label for="email">Email</label></td>
+				</tr>
+				<tr>
+				<td><label for="textarea">Mensaje</label></td>
+				<td><textarea name="textarea" id="textarea"></textarea></td>
+				</tr>
+				<tr>
+				<td><input type="submit" name="submit2" id="submit2" value="Enviar"></td>
+				</tr>
+			  </tbody>
+			  </table>
+			</form>
+		  </section>
+			<section>
+			<h2>Formulario de ingreso</h2>
+			<form action="action_page.html" method="get">
+			<label for="usuario">Usuario</label>
+			<input type="text" id="usuario" name="usuario">
+			<label for="usuario">Contraseña</label>
+			<input type="password">
+			<input type="submit" name="submit3" id="submit3" value="Enviar">
+			</form>
+			</section>
+			<section>
+			<h2>Formularios Eleccion de Color</h2>
+			<form action="action_page.html"> 
+			<label for="favcolor">Select your favorite color:</label>
+  			<input type="color" id="favcolor" name="favcolor" value="#ff0000">
+  			<input type="submit" value="Enviar">
+			</form>
+			</section>
+			<section>
+			<h2>Formulario de  Fechas</h2>
+			<form>
+				<label for="birthday">Escribe la fecha de tu cumpleaños:</label>
+  				<input type="date" id="birthday" name="birthday">
+  				<input type="submit" value="Enviar">
+				</form>
+			</section>
+			<section>
+			<h2>Formulario para enviar archivos</h2>
+			<form action="action_page.html">
+  			<label for="myfile">Enviar archivos:</label>
+  			<input type="file" id="myfile" name="myfile"><br><br>
+  			<input type="submit" value="Enviar">
+			</form>
+			</section>
+			<section>
+			<h2>Formulario con valor minimo y maximo</h2>
+			<p>Elige un nùmero entre el 1 a 5 para evaluar :</p>
+			<form action="action_page.html">
+  			<label for="quantity">Calidad:</label>
+  			<input type="number" id="calidad" name="calidad" min="1" max="5">
+			<label for="quantity">Servicio:</label>
+  			<input type="number" id="servicio" name="servicio" min="1" max="5">
+  			<input type="submit" value="Submit">
+			</form>
+			</section>
+		</main>
+</body>
+<footer>
+<h5>By:Ruth Gozàlez Cruz</h5>	
+</footer>
+</html>

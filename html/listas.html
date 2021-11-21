@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Listas</title>
+	<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+		*{margin: 0;
+	 pading:0;}
+		header,footer{
+			background-color:#156448;
+			color: #DEAFF7;
+			width: auto;
+			height: auto;
+			padding: 10px;
+			margin: auto;
+			text-align: center;
+		}
+		nav {background-color:#42A380;
+			width: auto;
+			height: auto;
+			text-align: center;
+			font-family: 'Playfair Display', serif;
+		}
+		nav ul li {
+	padding: 25px;
+	display: inline-block;
+			text-align: center;}
+		body {background-color: #DEAFF7;}
+		section{
+			background-color: #8872C5;
+			padding: 20px;
+			margin: 20px ;
+			margin-left: 30pX;
+			margin-right: 30;
+			border: solid 10px;
+			border-color: #16ACAA;
+		}
+		h2,h5 {color:blanchedalmond;font-family: 'Playfair Display', serif;}
+		li{color:#003680;font-family: 'Overpass', sans-serif}
+		dl{color:aliceblue;font-family: 'Overpass', sans-serif}
+		
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Listas en html</h1>
+	</header>
+	<nav>
+	<ul>
+		  <li><a href="mi primera pagina.html">Mi primera pagina</a></li>
+		  <li><a href="tablas.html">Tablas</a></li>
+		  <li><a href="listas.html">Listas</a></li>
+		  <li><a href="enlaces.html">Enlaces</a></li>
+		  <li><a href="sonido.html">Audio</a></li>
+		  <li><a href="Video.html">video</a></li>
+		  <li><a href="../imagenes.html">Imagenes</a></li>
+		  <li><a href="Animacion.html">Animacion</a></li>
+		  <li><a href="Formularios.html">Formularios</a></li>
+			 <li><a href="flexbox.html">Flexbox</a></li>
+			 <li><a href="media.html">Media Queries</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+		<h2>Listas desordenadas con Viñetas</h2>
+			<ul>
+			<li>Libreta profesional</li>
+			<li>Tijeras</li>
+			<li>pegamento</li>
+			<li>Colores</li>
+			<li>100 Hojas Blancas</li>
+			<li>Lapiz</li>
+			</ul></section>
+		<section>
+		<h2>Lista Ordenada o con Viñeta numerada</h2>
+			<ol>
+			<li>Sara Musalem</li>
+			<li>Jessica Mena</li>
+			<li>Victor Vargas</li>
+			<li>Angela Olivares</li>
+			<li>Francisco Faustino</li>
+			<li>Steffany Gomez</li>
+			</ol>
+		</section>
+		<section>
+			<h2>Lista Mixta</h2>
+			<ol>
+				<li>España</li>
+				<li>Argentina</li>
+				<li>Mexico
+					<ul>
+					<li>Puebla</li>
+					<li>Veracruz</li>
+					<li>Guadalajara</li>
+				</ul></li>
+				<li>Estados Unidos</li>
+				<li>Italia<ul>
+					<li>Venecia</li>
+					<li>Roma</li>
+					<li>Florencia</li>
+				</ul></li>
+				<li>Francia</li>
+			</ol>
+		
+		</section>
+		<section>
+		<h2>Lista de descripcion</h2>
+		<dl><dt>Usabilidad</dt>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, saepe.</dd>
+		<dt>Accesiblilidad</dt>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ex, vel molestias expedita dolorum, impedit quos repellendus laboriosam neque magnam rerum reprehenderit adipisci magni saepe architecto enim officiis, fugiat necessitatibus.</dd>
+		<dt>Interactividad</dt>
+		<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quaerat eligendi earum aut sed nam voluptate, excepturi inventore magni nisi expedita recusandae, natus quibusdam commodi ex fugit in accusamus quas!</dd>
+			</dl></section>
+		<section>
+		<h2>Lista de Cambi de Viñeta</h2>
+		<ol>
+		<li>Mamiferos
+			<ul style="list-style-type: disc">
+			<li>Vaca</li>
+			<li>Hmanos</li>
+			<li>Perros</li>
+			</ul>
+			</li>
+		<li>Reptiles
+			<ul style="list-style-type: square"><li>Lagartija</li>
+			<li>Serpientes</li>
+			<li>Camaleon</li></ul></li>
+		<li>Amfibios
+			<ul style="list-style-type: lower-roman">
+			<li>Ranas</li>
+			<li>Salamandra</li>
+			<li>Cesilia</li>
+			</ul>
+			</li>
+		<li>Felinos</li>
+			<ul style="list-style-type: upper-roman">
+			<li>Leones</li>
+			<li>Panteras</li>
+			<li>Tigres</li>
+			</ul>
+		<li>Caninos
+			<ul style="list-style-image: url()">
+				<li>Lorem</li>
+				<li>Lorem</li>
+				<li>Lorem</li>
+			</ul></li>
+		<li>Vertebrados</li>
+		</ol>
+		</section>
+	</main>
+	<footer>
+	<h5>By: Ruth Gonzàlez Cruz</h5>
+	</footer>
+</body>
+</html>

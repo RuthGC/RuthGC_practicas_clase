@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Tablas</title>
+	<style type="text/css">
+		*{margin: 0;
+			pading:0;}
+		header,footer{
+			background-color:#E2d5d0;
+			width: 1024px;
+			height: auto;
+			padding: 10px;
+			margin: auto;
+			
+		}
+		nav {
+	background-color:#DCA8F0;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+nav ul li {
+	padding: 25px;
+	display: inline-block;
+	text-align: center;
+	list-style-type: none;
+	color:;
+}
+		body{
+			background-color:#E2d5d0;
+		}
+		main{
+			padding-left:50px;
+		}
+		h1,h5{ color: #ec5489;
+			text-align: center;
+		
+		}
+		h5{font-size: 20px}
+		h2{
+			color:#fabc28;
+			padding: 10px;
+		}
+		section{
+			background-color:#2a2642;
+			width: 1024px;
+			width: auto;
+			padding: 20px;
+		border: solid #fabc28 30px
+			
+		}
+		table{
+			border-collapse:collapse;	
+		}
+		th,td{
+			padding: 10px;
+		}
+		td{/*background-color:#E2d5d0*/ }
+		th{
+			color:#151723;
+			/*background-color:#fabc28;*/
+			text-align: left
+		}
+		#t01 th{
+			background-color:aqua;
+		}
+		#t01 td {background-color: #F48183;
+		border: double 4px}
+		#t02 th,#t02 td{
+			padding: 15px;
+			text-align: center
+		}
+		#t02 tr:nth-child(even){background-color: #E95D0A;}
+		#t02 tr:nth-child(odd){background-color: #6C4164;}
+		.tabla th {background-color: #F48422;}
+		.tabla td{background-color: #DCA8F0;}
+		.tabla tr:hover{
+			background-color: #FFD352;
+		}
+		#t03 tr:hover{background-color: aqua}
+	</style>
+</head>
+<header>
+	<h1> Tablas en HTML</h1>
+</header>
+<nav>
+	<ul>
+		  <li><a href="mi primera pagina.html">Mi primera pagina</a></li>
+		  <li><a href="tablas.html">Tablas</a></li>
+		  <li><a href="listas.html">Listas</a></li>
+		  <li><a href="enlaces.html">Enlaces</a></li>
+		  <li><a href="sonido.html">Audio</a></li>
+		  <li><a href="Video.html">video</a></li>
+		  <li><a href="../imagenes.html">Imagenes</a></li>
+		  <li><a href="Animacion.html">Animacion</a></li>
+		  <li><a href="Formularios.html">Formularios</a></li>
+			 <li><a href="flexbox.html">Flexbox</a></li>
+			 <li><a href="media.html">Media Queries</a></li>
+		</ul>
+	</nav>
+<mian>
+	<section>
+	<h2>Tablas Simples</h2>
+	<table class="tabla" border="1">
+		<thead>
+		<tr>
+			<th>Nombre</th>
+			<th>Direccion;</th>
+			<th>Telefono</th>
+			</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>Daniel Vazquez</td>
+			<td>dany.vaz@gmail.com</td>
+			<td>
+			22245783</td>
+		</tr>
+		<tr>
+			<td>Maria Sanchez</td>
+			<td>mari12_s@gmail.com</td>
+			<td>2491213665</td>
+		</tr>
+		<tr>
+			<td>Juan Ezquivel</td>
+			<td>jhon_23@yahoo.com</td>
+			<td>2221312356</td>
+		</tr>
+		<tr>
+			<td>Ezequiel</td>
+			<td>ez_quiel12@gmail.com</td>
+			<td>2020215</td>
+		</tr>
+		<tr>
+			<td>Antonio</td>
+			<td>tony_201@hotmail.com</td>
+			<td>202020224</td>
+		</tr></tbody>
+		<tfoot></tfoot>
+		</table>
+	</section>
+  <section>
+	<h2></h2>
+		<table class="tabla" border="1">
+			<thead>
+			<tr>
+				<th>
+			Nombre
+				</th>
+				<th colspan="2">
+				Telefono</th>
+				</tr>
+			</thead>
+			<tbody>
+			
+			<tr>
+				<td>
+				Ana Lopez</td>
+				<td> 2222532323</td>
+				<td>2223223555</td>
+			</tr>
+			<tr>
+				<td> Hector Cortes</td>
+				<td>2555245454</td>
+				<td>555256865</td>
+			</tr>
+			<tr>
+				<td>Mercedes Villa</td>
+				<td>7762145632</td>
+				<td>7771234596</td>
+			</tr></tbody>
+			<tfoot></tfoot>
+		</table>
+	</section>
+	<section>
+	<h2>Tabla modificada apartir de reglas de id en ccs</h2>
+	<table width="600" border="1" id="t01">
+  <thead>
+	   <tr>
+      <th> Nombre</th>
+      <th>apellido</th>
+      <th> Edad</th>
+    </tr>
+	  </thead>
+		<tbody>
+    <tr>
+      <td>Ana</td>
+      <td> Martinez </td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Carla</td>
+      <td>Rodrigez</td>
+      <td>19</td>
+    </tr>
+	<tr>
+      <td>Alberto</td>
+      <td>Cruz</td>
+      <td>22</td>
+    </tr>
+  </tbody>
+</table>
+	</section>
+	<section>
+	  <table id="t02" border="1">
+		<thead>
+		<tr>
+			<th>Nombre</th>
+			<th>Direccion;</th>
+			<th>Telefono</th>
+			</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>Daniel Vazquez</td>
+			<td>dany.vaz@gmail.com</td>
+			<td>
+			22245783</td>
+		</tr>
+		<tr>
+			<td>Maria Sanchez</td>
+			<td>mari12_s@gmail.com</td>
+			<td>2491213665</td>
+		</tr>
+		<tr>
+			<td>Juan Ezquivel</td>
+			<td>jhon_23@yahoo.com</td>
+			<td>2221312356</td>
+		</tr>
+		<tr>
+			<td>Ezequiel</td>
+			<td>ez_quiel12@gmail.com</td>
+			<td>2020215</td>
+		</tr>
+		<tr>
+			<td>Antonio</td>
+			<td>tony_201@hotmail.com</td>
+			<td>202020224</td>
+			</tr>
+		  </tbody>
+			</table>
+	</section>
+  <section>
+		
+	<table id="t03" class="tabla" width="500" border="1">
+		<thead>
+			 <tr>
+      <td>Nombre</td>
+      <td> Edad</td>
+      <td>Genero</td>
+    </tr>
+			</thead>
+  <tbody>
+   
+    <tr>
+      <td>Maria lopez</td>
+      <td>15</td>
+      <td>Femenino</td>
+    </tr>
+    <tr>
+      <td>Anonio</td>
+      <td>14</td>
+      <td>masculino</td>
+    </tr>
+    <tr>
+      <td>Angel</td>
+      <td>16</td>
+      <td>masculino</td>
+    </tr>
+  </tbody>
+	<tfoot></tfoot>
+</table>
+
+		</section>
+	</mian>
+<footer><h5>by: Ruth Gonzalez Cruz</h5> </footer>
+<body>
+</body>
+</html>

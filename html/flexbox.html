@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Flexbos</title>
+	<style>
+		*{padding:0;
+margin: 0;}
+		@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+nav {
+	color:#FFFFFF;
+	background-color: #515151;
+	font-family: 'Playfair Display', serif;
+}
+nav ul li {
+	padding: 25px;
+	display: inline-block;
+	text-align: center;
+	list-style-type: none;
+	color:#8F2D5;
+}
+		body{
+			background-color: #B84976;
+			text-align: center
+		}
+		h1{
+	width: 100%;
+	background-color:#B84976;
+	color:#ECD1F7;
+	padding: 5px;
+	font-family: 'Playfair Display', serif;
+}
+		h2{
+			color:#EDD3D3;
+			padding: 5px;
+		}
+		.box-conteiner-flex{
+			background-color: #DCA8F0;
+			display: flex;
+			margin: 30px 0;
+		}
+		.box-conteiner-flex>div{
+			width: 500px;
+			background-color: #7F7F7F;
+			margin: 30px;
+			padding: 20px;
+			font-size: 50px;
+		}
+			.box-conteiner-flex-2{
+			background-color: #DCA8F0;
+			display: flex;
+			flex-direction: column-reverse;
+		}
+		.box-conteiner-flex-2>div{
+			width: 500px;
+			background-color: #7F7F7F;
+			margin: 10px;
+			padding: 20px;
+			font-size: 50px;
+		}
+		.box-conteiner-flex-3{
+			background-color: #DCA8F0;
+			display: flex;
+			flex-wrap: wrap-reverse;
+		}
+		.box-conteiner-flex-3>div{
+			width: 300px;
+			background-color: #7F7F7F;
+			margin: 10px;
+			padding: 20px;
+			font-size: 50px;
+		}
+		.box-conteiner-flex-4>div{
+			width: 200px;
+			background-color: #7F7F7F;
+			margin: 10px;
+			padding: 20px;
+			font-size: 50px;
+		}
+		.box-conteiner-flex-4{
+			background-color: #DCA8F0;
+			display: flex;
+			justify-content: center;}
+		.box-conteiner-flex-5>div{
+			width: 200px;
+			background-color: #7F7F7F;
+			margin: 10px;
+			padding: 20px;
+			font-size: 50px;
+		}
+		.box-conteiner-flex-5{
+			background-color: #DCA8F0;
+			display: flex;
+			justify-content: space-between;}
+		.box-conteiner-flex-6>div{
+			width: 300px;
+			height: 200px;
+			background-color: #7F7F7F;
+			margin: 10px;
+			padding: 20px;
+			font-size: 50px;
+		}
+		.box-conteiner-flex-6{
+			background-color: #DCA8F0;
+			height: 400px;
+			display: flex;
+			align-items: flex-end;
+		}
+		.box-conteiner-flex-7>div{
+			width: 300px;
+			background-color: #7F7F7F;
+			margin: 10px;
+			padding: 20px;
+			font-size: 30px;
+		}
+		.box-conteiner-flex-7{
+			background-color: #DCA8F0;
+			height: 600px;
+			display: flex;
+			flex-wrap: wrap;
+			align-content: flex-end;
+		}
+		.box-conteiner-flex-8>div{
+			width: 300px;
+			height: 80%;
+			background-color: #7F7F7F;
+			margin: 10px;
+			padding: 20px;
+			font-size: 30px;
+		}
+		.box-conteiner-flex-8{
+			background-color: #DCA8F0;
+			height: 600px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+</head>
+
+<body>
+<header> <h1>FlexBox</h1></header>
+	<nav>
+		<ul>
+		  <li><a href="mi primera pagina.html">Mi Pimera pagina</a></li>
+		  <li><a href="tablas.html">Tablas</a></li>
+		  <li><a href="listas.html">Listas</a></li>
+		  <li><a href="enlaces.html">Enlaces</a></li>
+		  <li><a href="../imagenes.html">Imagenes</a></li>
+		  <li><a href="Video.html">Videos</a></li>
+		  <li><a href="Animacion.html">Animaciòn</a></li>
+		<li><a href="Formularios.html">Formularios</a></li>
+		  <li><a href="flexbox.html">Flexbox</a></li>
+		</ul>
+	</nav>
+<main>
+	<section>
+		<h2>Uso de propiedad: flex </h2>
+		<div  class="box-conteiner-flex">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	</div>
+	</section>
+	<section>
+		<h2>Uso de propiedades de plex-direction: colum, </h2>
+		<div  class="box-conteiner-flex-2">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+	</div>
+	</section>
+	<section>
+		<h2>Uso de propiedades flex-wrap, </h2>
+		<div  class="box-conteiner-flex-3">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+		<div>6</div>
+		<div>7</div>
+		<div>8</div>
+		<div>9</div>
+		<div>10</div>
+		<div>11</div>
+		<div>12</div>
+	</div>
+	</section>
+	<section>
+		<h2>Uso de la propiedad justify-content: Center</h2>
+		<div class="box-conteiner-flex-4">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		</div>
+		<div class="box-conteiner-flex-5">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		</div>
+		</section>
+		<section>
+			<h2>Uso de propiedad aling-items: Center, flex-end, flex-start,strech</h2>
+			<div class="box-conteiner-flex-6">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			</div>
+		</section>
+		<section>
+		<h2>Uso de la propiedad aling-contend</h2>
+			<div class="box-conteiner-flex-7">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			<div>6</div>
+			<div>7</div>
+			<div>8</div>
+			</div>
+		</section>
+		<section>
+		<h2>Centrefo vertical y horizontal</h2>
+			<div class="box-conteiner-flex-8">
+				<di>Contenido</di>
+			</div>
+		</section>
+	</main>
+	<footer>
+	<h5> by: Ruth Gonzalez Cruz</h5>
+	</footer>
+</body>
+</html>

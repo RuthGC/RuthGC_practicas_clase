@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0;
+margin: 0;}
+header{
+	color:#B84976;
+	font-size: 40px;
+	background-color:#353535;
+	text-align:center;
+	font-family: 'Noto Serif Display', serif;
+}
+body{
+	background-color: #9B9B9B;
+}
+section{
+	padding: 30px;
+	margin: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #7B3055;
+	color:#DDDDDD;
+}
+h2 {
+	font-family: 'Zen Antique Soft', serif;
+}
+
+p{padding: 25px;
+font-family: 'Josefin Sans', sans-serif;
+}
+img {
+	width: 50%;
+	margin-left: 25%;
+	
+}
+footer{ 
+	color:#D4CECE;
+	background-color: #B84976;
+	height: 30px;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+}
